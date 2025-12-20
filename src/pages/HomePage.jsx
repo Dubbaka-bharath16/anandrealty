@@ -240,9 +240,8 @@ const Home = () => {
         {[...Array(5)].map((_, index) => (
           <span
             key={index}
-            className={`text-lg ${
-              index < rating ? 'text-yellow-400' : 'text-gray-300'
-            }`}
+            className={`text-lg ${index < rating ? 'text-yellow-400' : 'text-gray-300'
+              }`}
           >
             <i className="fas fa-star"></i>
           </span>
@@ -258,7 +257,7 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             {/* Hero Carousel Container */}
-            <div 
+            <div
               className="relative bg-white rounded-2xl shadow-2xl overflow-hidden"
               onMouseEnter={() => setIsHoveringHero(true)}
               onMouseLeave={() => setIsHoveringHero(false)}
@@ -303,9 +302,8 @@ const Home = () => {
                       <button
                         key={index}
                         onClick={() => setCurrentHeroSlide(index)}
-                        className={`w-2 h-2 rounded-full transition-all duration-300 ${
-                          index === currentHeroSlide ? 'bg-orange-500' : 'bg-white/60'
-                        }`}
+                        className={`w-2 h-2 rounded-full transition-all duration-300 ${index === currentHeroSlide ? 'bg-orange-500' : 'bg-white/60'
+                          }`}
                       />
                     ))}
                   </div>
@@ -325,11 +323,11 @@ const Home = () => {
                       <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-blue-800 mb-2 md:mb-3 leading-tight">
                         {heroSlides[currentHeroSlide].title}
                       </h1>
-                      
+
                       <p className="text-base md:text-lg text-orange-600 font-semibold mb-2 md:mb-3 leading-tight">
                         {heroSlides[currentHeroSlide].subtitle}
                       </p>
-                      
+
                       <p className="text-sm md:text-base text-gray-600 mb-4 md:mb-6 leading-relaxed">
                         {heroSlides[currentHeroSlide].description}
                       </p>
@@ -345,14 +343,14 @@ const Home = () => {
                       </div>
 
                       <div className="flex flex-col sm:flex-row gap-2 md:gap-3 justify-center lg:justify-start">
-                        <Link 
-                          to="/projects" 
+                        <Link
+                          to="/projects"
                           className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 md:px-6 md:py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg text-sm md:text-base text-center"
                         >
                           <i className="fas fa-building mr-2"></i>View Projects
                         </Link>
-                        <Link 
-                          to="/contact" 
+                        <Link
+                          to="/contact"
                           className="border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-4 py-2 md:px-6 md:py-3 rounded-lg font-semibold transition-all duration-300 text-sm md:text-base text-center"
                         >
                           <i className="fas fa-calendar-alt mr-2"></i>Free Consultation
@@ -390,12 +388,12 @@ const Home = () => {
               </h2>
               <div className="w-16 md:w-20 h-1 bg-orange-500 mx-auto mb-4 md:mb-6"></div>
               <p className="text-base md:text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed px-2">
-  Anand Realtyy is built on trust, transparency, and long term value. We ensure every property rests on 
-  strong legal foundations through meticulous document scrutiny and ethical practices. By blending modern design 
-  with traditional Vastu principles, we create balanced, future ready spaces offering accessible luxury 
-  without compromise enriching lifestyles, safeguarding investments, and standing as lasting legacies 
-  for generations.
-</p>
+                Anand Realtyy is built on trust, transparency, and long term value. We ensure every property rests on
+                strong legal foundations through meticulous document scrutiny and ethical practices. By blending modern design
+                with traditional Vastu principles, we create balanced, future ready spaces offering accessible luxury
+                without compromise enriching lifestyles, safeguarding investments, and standing as lasting legacies
+                for generations.
+              </p>
             </motion.div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-center">
@@ -410,17 +408,17 @@ const Home = () => {
                   Our Founding Principle
                 </h3>
                 <p className="text-gray-700 mb-3 md:mb-4 leading-relaxed text-sm md:text-base">
-                  <i className="fas fa-quote-left text-orange-500 mr-2"></i> 
-                  This ancient wisdom forms the bedrock of our operations. 
+                  {/* <i className="fas fa-quote-left text-orange-500 mr-2"></i> */}
+                  This ancient wisdom forms the bedrock of our operations.
                   We've demonstrated that when you uphold righteousness and ethical practices, success follows naturally.
                 </p>
                 <p className="text-gray-700 leading-relaxed text-sm md:text-base">
-                  From humble beginnings to becoming a trusted name in real estate, our journey has been guided by 
-                  this principle, ensuring that every project we undertake benefits all stakeholders - our clients, 
+                  From humble beginnings to becoming a trusted name in real estate, our journey has been guided by
+                  this principle, ensuring that every project we undertake benefits all stakeholders,our clients,
                   partners, and the community.
                 </p>
               </motion.div>
-              
+
               <motion.div
                 initial={{ opacity: 0, x: 30 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -438,7 +436,7 @@ const Home = () => {
                   </li>
                   <li className="flex items-start">
                     <i className="fas fa-compass text-orange-500 mr-2 md:mr-3 mt-1"></i>
-                    <span className="text-gray-700 text-sm md:text-base">Vastu-compliant designs for harmonious living</span>
+                    <span className="text-gray-700 text-sm md:text-base">Vastu compliant designs for harmonious living</span>
                   </li>
                   <li className="flex items-start">
                     <i className="fas fa-hard-hat text-orange-500 mr-2 md:mr-3 mt-1"></i>
@@ -446,7 +444,7 @@ const Home = () => {
                   </li>
                   <li className="flex items-start">
                     <i className="fas fa-headset text-orange-500 mr-2 md:mr-3 mt-1"></i>
-                    <span className="text-gray-700 text-sm md:text-base">Customer-centric approach with lifelong support</span>
+                    <span className="text-gray-700 text-sm md:text-base">Customer centric approach with lifelong support</span>
                   </li>
                 </ul>
               </motion.div>
@@ -469,7 +467,8 @@ const Home = () => {
               The Anand Realtyy Advantage
             </h2>
             <p className="text-base md:text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed px-2">
-              Experience the difference that comes with trusted real estate development
+              Experience trusted real estate development through meticulous legal diligence,
+              Vastu compliant designs, and premium infrastructure for lasting value.
             </p>
           </motion.div>
 
@@ -522,9 +521,8 @@ const Home = () => {
                   animate="center"
                   exit="exit"
                   transition={{ duration: 0.5, ease: "easeInOut" }}
-                  className={`grid gap-4 md:gap-6 ${
-                    window.innerWidth < 768 ? 'grid-cols-1' : 'grid-cols-3'
-                  }`}
+                  className={`grid gap-4 md:gap-6 ${window.innerWidth < 768 ? 'grid-cols-1' : 'grid-cols-3'
+                    }`}
                 >
                   {currentReviews.map((review) => (
                     <div key={review.id} className="bg-white rounded-xl shadow-lg p-4 md:p-6 hover:shadow-xl transition-all duration-300">
@@ -553,9 +551,8 @@ const Home = () => {
                   <button
                     key={index}
                     onClick={() => setCurrentReviewSet(index)}
-                    className={`w-2 h-2 md:w-3 md:h-3 rounded-full transition-all duration-300 ${
-                      index === currentReviewSet ? 'bg-orange-500' : 'bg-gray-300'
-                    }`}
+                    className={`w-2 h-2 md:w-3 md:h-3 rounded-full transition-all duration-300 ${index === currentReviewSet ? 'bg-orange-500' : 'bg-gray-300'
+                      }`}
                   />
                 ))}
               </div>
@@ -651,7 +648,7 @@ const Home = () => {
             className="text-center mb-8 md:mb-12"
           >
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-blue-800 mb-3 md:mb-4">
-             Our Guiding Principles
+              Our Guiding Principles
             </h2>
             <p className="text-base md:text-lg text-gray-600 px-2">
               The values that drive every decision and action at Anand Realtyy
@@ -690,18 +687,18 @@ const Home = () => {
               Ready to Find Your Dream Property?
             </h2>
             <p className="text-lg md:text-xl text-blue-200 mb-6 md:mb-8 max-w-2xl mx-auto leading-relaxed px-2">
-              Join thousands of satisfied families who have made Anand Realtyy their trusted partner in real estate. 
+              Join thousands of satisfied families who have made Anand Realtyy their trusted partner in real estate.
               Let's build your legacy together.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center">
-              <Link 
-                to="/contact" 
+              <Link
+                to="/contact"
                 className="bg-orange-500 hover:bg-orange-600 text-white px-6 md:px-8 py-3 md:py-4 rounded-lg font-bold transition-all duration-300 transform hover:scale-105 text-sm md:text-base"
               >
                 <i className="fas fa-calendar-check mr-2"></i>Schedule Free Consultation
               </Link>
-              <Link 
-                to="/projects" 
+              <Link
+                to="/projects"
                 className="border border-white text-white hover:bg-white hover:text-blue-800 px-6 md:px-8 py-3 md:py-4 rounded-lg font-bold transition-all duration-300 text-sm md:text-base"
               >
                 <i className="fas fa-search mr-2"></i>Browse All Projects

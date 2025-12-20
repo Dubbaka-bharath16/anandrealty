@@ -42,7 +42,7 @@ const Header = () => {
           <Link to="/" className="flex items-center space-x-2 md:space-x-3 group">
             <div className="w-12 h-12 md:w-16 md:h-16 rounded-full border-2 border-orange-200 overflow-hidden shadow-sm group-hover:shadow-md transition-all duration-300">
               <img
-                src="./images/image.png"
+                src="./images/Anand.png"
                 alt="Founder"
                 className="w-full h-full object-cover object-top"
               />

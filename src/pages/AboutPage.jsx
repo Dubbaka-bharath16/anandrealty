@@ -180,7 +180,7 @@ const About = () => {
                   {/* Responsive Image card */}
                   <div className="w-full h-[350px] sm:h-[400px] md:h-[500px] lg:h-[580px] rounded-2xl overflow-hidden shadow-2xl ring-1 ring-gray-100 bg-white transform transition-all duration-500 group-hover:shadow-3xl group-hover:scale-[1.02] group-hover:ring-2 group-hover:ring-orange-200">
                     <img
-                      src="/images/image.png"
+                      src="/images/Anand.png"
                       alt="Founder & Chairman"
                       className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
                     />
@@ -251,9 +251,8 @@ const About = () => {
                       <h4 className="font-bold text-blue-800 text-base sm:text-lg md:text-xl mb-2">About Anand Realtyy</h4>
                       <p className="text-gray-700 text-xs sm:text-sm md:text-base">
                         Under Anand's leadership, Anand Realtyy has emerged as a trusted name in plot development,
-                        transforming raw land into premium residential ventures. With 25+ years of expertise,
-                        we specialize in creating sustainable, Vastu-compliant plotted communities that offer
-                        complete legal transparency and exceptional value appreciation.
+                        transforming raw land into premium residential ventures. We specialize in creating sustainable,
+                        Vastu compliant plotted communities that offer complete legal transparency and exceptional value appreciation.
                       </p>
                     </div>
                   </div>
