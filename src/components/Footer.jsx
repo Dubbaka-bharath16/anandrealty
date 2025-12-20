@@ -203,22 +203,27 @@ const Footer = () => {
                 <div className="flex items-center space-x-3 mb-4">
                   {/* Founder Image and Logo - Smaller on mobile */}
                   <div className="flex items-center space-x-2 md:space-x-3">
-                    <div className="w-12 h-12 md:w-16 md:h-16 rounded-full border border-orange-200 overflow-hidden shadow-lg flex-shrink-0">
-                      <img
-                        src="/images/Anand.png"
-                        alt="Founder"
-                        className="w-full h-full object-cover object-top"
-                      />
-                    </div>
-                    <div className="w-10 h-12 md:w-16 md:h-16 flex-shrink-0">
-                      <img
-                        src="/images/Anandhlogo.png"
-                        alt="Anand Realtyy"
-                        className="w-full h-full object-contain rounded-full border-2  border-orange-200"
-                      />
+  
+  {/* Founder Image */}
+  <div className="w-12 h-12 md:w-16 md:h-16 rounded-full border border-orange-200 overflow-hidden shadow-lg flex-shrink-0">
+    <img
+      src="/images/Anand.png"
+      alt="Founder"
+      className="w-full h-full object-cover object-top"
+    />
+  </div>
 
-                    </div>
-                  </div>
+  {/* Company Logo — FIXED */}
+  <div className="w-12 h-12 md:w-16 md:h-16 flex items-center justify-center flex-shrink-0">
+    <img
+      src="/images/Anandhlogo.png"
+      alt="Anand Realtyy"
+      className="w-full h-full object-contain rounded-full border border-orange-200 shadow-lg"
+    />
+  </div>
+
+</div>
+
                   <div className="text-left flex-grow">
                     <h2 className="text-lg md:text-2xl font-bold leading-tight">
                       <span className="text-orange-400">ANAND</span>
@@ -285,7 +290,7 @@ const Footer = () => {
 
                     <div className="flex items-center space-x-1 md:space-x-2">
                       <i className="fas fa-envelope text-orange-400 text-xs md:text-sm" />
-                      <span className="text-gray-300 text-xs md:text-sm">info@anandrealty.com</span>
+                      <span className="text-gray-300 text-xs md:text-sm">info@anandgroup.org</span>
                     </div>
                   </div>
 
