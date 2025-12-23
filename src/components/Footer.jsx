@@ -203,9 +203,9 @@ const Footer = () => {
                 <div className="flex items-center space-x-3 mb-4">
                   {/* Founder Image and Logo - Smaller on mobile */}
                   <div className="flex items-center space-x-2 md:space-x-3">
-  
-  {/* Founder Image */}
-  {/* <div className="w-12 h-12 md:w-16 md:h-16 rounded-full border border-orange-200 overflow-hidden shadow-lg flex-shrink-0">
+
+                    {/* Founder Image */}
+                    {/* <div className="w-12 h-12 md:w-16 md:h-16 rounded-full border border-orange-200 overflow-hidden shadow-lg flex-shrink-0">
     <img
       src="/images/Anand.png"
       alt="Founder"
@@ -213,16 +213,17 @@ const Footer = () => {
     />
   </div> */}
 
-  {/* Company Logo — FIXED */}
-  <div className="w-12 h-12 md:w-16 md:h-16 flex items-center justify-center flex-shrink-0">
-    <img
-      src="/images/Anandhlogo.png"
-      alt="Anand Realtyy"
-      className="w-full h-full object-contain rounded-full border border-orange-200 shadow-lg"
-    />
-  </div>
+                    {/* Company Logo — FIXED */}
+                    <div className="w-12 h-12 md:w-16 md:h-16 rounded-full bg-white flex items-center justify-center overflow-hidden shadow-md flex-shrink-0">
+                      <img
+                        src="/images/Anandhlogo.png"
+                        alt="Anand Realtyy"
+                        className="w-[70%] h-[70%] object-contain"
+                      />
+                    </div>
 
-</div>
+
+                  </div>
 
                   <div className="text-left flex-grow">
                     <h2 className="text-lg md:text-2xl font-bold leading-tight">
