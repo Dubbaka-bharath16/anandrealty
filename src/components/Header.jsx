@@ -53,10 +53,10 @@ const Header = () => {
                 <img
                   src="./images/Anandhlogo.png"
                   alt="Anand Logo"
-                  className="w-8 h-10 md:w-10 md:h-12 object-contain"
+                  className="w-10 h-10 md:w-14 md:h-14 object-contain"
                 />
                 <div className="flex flex-col items-start">
-                  <h1 className="text-lg md:text-xl font-bold text-blue-800">
+                  <h1 className="text-lg md:text-xl font-bold text-blue-800 whitespace-nowrap">
                     <span className="text-orange-500">ANAND </span>REALTYY
                   </h1>
                   <p className="sm:text-xs text-xxs text-gray-600 italic mt-1">
