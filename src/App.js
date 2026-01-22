@@ -17,7 +17,7 @@ function App() {
       <Router>
         <div className="min-h-screen bg-white">
           <ScrollToTop /> {/* Add ScrollToTop component here */}
-          <Header />
+          {/* <Header />
           <main>
             <Routes>
               <Route path="/" element={<HomePage />} />
@@ -27,7 +27,8 @@ function App() {
               <Route path="/Landinfo" element={<Landinformation />} />
             </Routes>
           </main>
-          <Footer />
+          <Footer /> */}
+          Not Found
         </div>
       </Router>
     </ModalProvider>
